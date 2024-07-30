@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>Etch-a-sketch</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <script src = "script.js" defer></script>
+        <!--Below, this div class contains upper half of webpage-->
+        <div class = "title">Etch-A-Sketch</div>
+        <!--Below, this div contains bottom half of webpage-->
+        <div class = "bottom">
+            <div class = "bottom-left">
+                <form>
+                    <label for = "colorPicker" class = chooseColor>Choose a color:</label>
+                    <p><input type = "color" id = "colorPicker"></p>
+                    <!--Submit button necessary?-->
+                </form>
+                <button id = "rainbow">Rainbow</button> 
+                <button id = "eraser">Eraser</button>
+                <button id = "clear">Clear</button>
+                <div class = slider>
+                    <div>Change the grid size!</div>
+                    <div class = gridSize>16x16</div>
+                    <input type = "range" min="8" max ="35" value="16" id = "sliderRange">
+                </div>
+            </div>
+            <!--Below, container is where the squares will go-->
+            <div id = "container"></div>
+            </div>
+        </div>
+    </body>
+</html>

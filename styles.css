@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    background-color: rgb(145, 150, 170);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    max-height: 90px;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Arial;
+    text-shadow: 2px 2px 5px lightblue;
+    color: navy;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    max-height: 500px;
+    gap: 25px;
+    background-color: rgba(0, 0, 128, 0.65);
+    box-shadow: 5px 5px 8px rgb(87, 87, 200);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+#container {
+    max-height: 600px;
+    max-width: 600px;
+    box-shadow: 10px 10px 5px, black;
+}
+
+.row {
+    display: flex;
+}
+
+.gridBox {
+    display: flex;
+    border: .5px, solid black;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 4px 4px 3px rgb(118, 157, 241);
+}
+
+.chooseColor {
+    font-size: large;
+    color: lightblue;
+    font-family: arial;
+}
+
+button {
+    cursor:pointer;
+    padding: 10px 25px;
+    font-size: medium;
+    font-family: arial;
+    color: navy;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: lightblue;
+    opacity: .7
+}
+
+button:hover {
+    opacity: 1
+}
+
+button:active {
+    background-color: rgb(103, 206, 240);
+    box-shadow: 3px 3px #6f6fce;
+    transform: translateY(4px);
+}
+
+input[type="color"] {
+    cursor: pointer;
+    padding: 0;
+    width: 75px;
+    height: 40px;
+    border: none;
+    vertical-align: middle;
+}
+
+.slider {
+    font-family: arial;
+    color: lightblue;
+}
